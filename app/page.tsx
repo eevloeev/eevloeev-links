@@ -2,7 +2,6 @@ import { Box, Button, Stack, Typography } from "@mui/joy"
 import { Metadata } from "next"
 import TelegramIcon from "@mui/icons-material/Telegram"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
-import GitHubIcon from "@mui/icons-material/GitHub"
 import ParticlesBackground from "@/components/ParticlesBackground"
 
 export const metadata: Metadata = {
@@ -12,11 +11,6 @@ export const metadata: Metadata = {
 }
 
 const socials = [
-  {
-    name: "GitHub",
-    href: "https://github.com/eevloeev",
-    icon: <GitHubIcon />,
-  },
   {
     name: "Telegram",
     href: "https://t.me/eevloeev",
